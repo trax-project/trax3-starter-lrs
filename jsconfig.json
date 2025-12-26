@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@starter/*": ["trax/core/starter/resources/js/*"],
+            "@extended/*": ["trax/extended/resources/js/*"]
+        }
+    },
+    "exclude": ["node_modules", "public"]
+}

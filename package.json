@@ -1,0 +1,29 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev.starter": "vite --config vite.starter.config.js",
+        "build.starter": "vite build --config vite.starter.config.js && del trax\\core\\starter\\build /s /q && xcopy public\\starter\\*.* trax\\core\\starter\\build\\ /s /q /y",
+        "dev.extended": "vite --config vite.extended.config.js",
+        "build.extended": "vite build --config vite.extended.config.js",
+        "build": "npm run build.starter && npm run build.extended"
+    },
+    "devDependencies": {
+        "@tailwindcss/vite": "^4.0.0",
+        "axios": "^1.7.4",
+        "concurrently": "^9.0.1",
+        "laravel-vite-plugin": "^1.2.0",
+        "tailwindcss": "^4.1.18",
+        "vite": "^6.0.11"
+    },
+    "dependencies": {
+        "@headlessui/vue": "^1.7.23",
+        "@heroicons/vue": "^2.2.0",
+        "@inertiajs/vue3": "^2.3.3",
+        "@tailwindcss/postcss": "^4.1.18",
+        "@vitejs/plugin-vue": "^6.0.3",
+        "autoprefixer": "^10.4.23",
+        "moment": "^2.30.1",
+        "prismjs": "^1.30.0"
+    }
+}

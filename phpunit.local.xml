@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="vendor/phpunit/phpunit/phpunit.xsd"
+         bootstrap="vendor/autoload.php"
+         colors="true"
+>
+    <testsuites>
+        <testsuite name="activities">
+            <directory suffix="Test.php">./trax/core/activities/tests</directory>
+        </testsuite>
+        <testsuite name="activity-profiles">
+            <directory suffix="Test.php">./trax/core/activity-profiles/tests</directory>
+        </testsuite>
+        <testsuite name="agents">
+            <directory suffix="Test.php">./trax/core/agents/tests</directory>
+        </testsuite>
+        <testsuite name="agent-profiles">
+            <directory suffix="Test.php">./trax/core/agent-profiles/tests</directory>
+        </testsuite>
+        <testsuite name="auth">
+            <directory suffix="Test.php">./trax/auth/tests</directory>
+        </testsuite>
+        <testsuite name="commands">
+            <directory suffix="Test.php">./trax/commands/tests</directory>
+        </testsuite>
+        <testsuite name="dev">
+            <directory suffix="Test.php">./trax/dev/tests</directory>
+        </testsuite>
+        <testsuite name="vocab">
+            <directory suffix="Test.php">./trax/vocab/tests</directory>
+        </testsuite>
+        <testsuite name="framework">
+            <directory suffix="Test.php">./trax/core/framework/tests</directory>
+        </testsuite>
+        <testsuite name="logging">
+            <directory suffix="Test.php">./trax/logging/tests</directory>
+        </testsuite>
+        <testsuite name="statements">
+            <directory suffix="Test.php">./trax/core/statements/tests</directory>
+        </testsuite>
+        <testsuite name="states">
+            <directory suffix="Test.php">./trax/core/states/tests</directory>
+        </testsuite>
+    </testsuites>
+    <source>
+        <include>
+            <directory>app</directory>
+        </include>
+    </source>
+    <php>
+        <env name="APP_ENV" value="testing"/>
+        <env name="APP_MAINTENANCE_DRIVER" value="file"/>
+        <env name="BCRYPT_ROUNDS" value="4"/>
+        <env name="CACHE_STORE" value="array"/>
+        <!-- <env name="DB_CONNECTION" value="sqlite"/> -->
+        <!-- <env name="DB_DATABASE" value=":memory:"/> -->
+        <env name="MAIL_MAILER" value="array"/>
+        <env name="PULSE_ENABLED" value="false"/>
+        <env name="QUEUE_CONNECTION" value="sync"/>
+        <env name="SESSION_DRIVER" value="array"/>
+        <env name="TELESCOPE_ENABLED" value="false"/>
+    </php>
+</phpunit>

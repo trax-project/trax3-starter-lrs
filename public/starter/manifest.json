@@ -1,0 +1,122 @@
+{
+  "_ApplicationLogo-ceOQ4d3V.js": {
+    "file": "assets/ApplicationLogo-ceOQ4d3V.js",
+    "name": "ApplicationLogo",
+    "imports": [
+      "trax/core/starter/resources/js/app.js",
+      "_form-8xAmPxrV.js"
+    ]
+  },
+  "_AuthenticatedLayout-CwpmQA6s.js": {
+    "file": "assets/AuthenticatedLayout-CwpmQA6s.js",
+    "name": "AuthenticatedLayout",
+    "imports": [
+      "trax/core/starter/resources/js/app.js",
+      "_ApplicationLogo-ceOQ4d3V.js",
+      "_form-8xAmPxrV.js",
+      "_use-text-value-54G1F_Gx.js"
+    ]
+  },
+  "_PrimaryButton-BMxWPk7m.js": {
+    "file": "assets/PrimaryButton-BMxWPk7m.js",
+    "name": "PrimaryButton",
+    "imports": [
+      "trax/core/starter/resources/js/app.js"
+    ]
+  },
+  "_StatementFilters-BUD--PIh.js": {
+    "file": "assets/StatementFilters-BUD--PIh.js",
+    "name": "StatementFilters",
+    "isDynamicEntry": true,
+    "imports": [
+      "trax/core/starter/resources/js/app.js",
+      "_form-8xAmPxrV.js",
+      "_use-text-value-54G1F_Gx.js",
+      "_PrimaryButton-BMxWPk7m.js"
+    ]
+  },
+  "_form-8xAmPxrV.js": {
+    "file": "assets/form-8xAmPxrV.js",
+    "name": "form",
+    "imports": [
+      "trax/core/starter/resources/js/app.js"
+    ]
+  },
+  "_use-text-value-54G1F_Gx.js": {
+    "file": "assets/use-text-value-54G1F_Gx.js",
+    "name": "use-text-value",
+    "imports": [
+      "_form-8xAmPxrV.js",
+      "trax/core/starter/resources/js/app.js"
+    ]
+  },
+  "trax/core/starter/resources/js/Pages/Access/Access.vue": {
+    "file": "assets/Access-lIOvVAil.js",
+    "name": "Access",
+    "src": "trax/core/starter/resources/js/Pages/Access/Access.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_AuthenticatedLayout-CwpmQA6s.js",
+      "trax/core/starter/resources/js/app.js",
+      "_ApplicationLogo-ceOQ4d3V.js",
+      "_form-8xAmPxrV.js",
+      "_use-text-value-54G1F_Gx.js"
+    ]
+  },
+  "trax/core/starter/resources/js/Pages/Auth/Login.vue": {
+    "file": "assets/Login-DVjEJoLG.js",
+    "name": "Login",
+    "src": "trax/core/starter/resources/js/Pages/Auth/Login.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "trax/core/starter/resources/js/app.js",
+      "_ApplicationLogo-ceOQ4d3V.js",
+      "_form-8xAmPxrV.js"
+    ]
+  },
+  "trax/core/starter/resources/js/Pages/Data/Results/StatementResults.vue": {
+    "file": "assets/StatementResults-CjuX3dz4.js",
+    "name": "StatementResults",
+    "src": "trax/core/starter/resources/js/Pages/Data/Results/StatementResults.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_PrimaryButton-BMxWPk7m.js",
+      "trax/core/starter/resources/js/app.js"
+    ]
+  },
+  "trax/core/starter/resources/js/Pages/Data/Statements.vue": {
+    "file": "assets/Statements-DMrRPfpg.js",
+    "name": "Statements",
+    "src": "trax/core/starter/resources/js/Pages/Data/Statements.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_AuthenticatedLayout-CwpmQA6s.js",
+      "trax/core/starter/resources/js/app.js",
+      "_StatementFilters-BUD--PIh.js",
+      "trax/core/starter/resources/js/Pages/Data/Results/StatementResults.vue",
+      "_use-text-value-54G1F_Gx.js",
+      "_form-8xAmPxrV.js",
+      "_ApplicationLogo-ceOQ4d3V.js",
+      "_PrimaryButton-BMxWPk7m.js"
+    ],
+    "css": [
+      "assets/Statements-B8ksilth.css"
+    ]
+  },
+  "trax/core/starter/resources/js/app.js": {
+    "file": "assets/app-qZvrLHTu.js",
+    "name": "app",
+    "src": "trax/core/starter/resources/js/app.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "trax/core/starter/resources/js/Pages/Access/Access.vue",
+      "trax/core/starter/resources/js/Pages/Auth/Login.vue",
+      "_StatementFilters-BUD--PIh.js",
+      "trax/core/starter/resources/js/Pages/Data/Results/StatementResults.vue",
+      "trax/core/starter/resources/js/Pages/Data/Statements.vue"
+    ],
+    "css": [
+      "assets/app-DuR4of3j.css"
+    ]
+  }
+}
